@@ -1,0 +1,46 @@
+body{
+ margin:0;
+ font-family:Arial;
+ background:url('bg.jpg') center/cover no-repeat fixed;
+}
+
+.center{
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ height:100vh;
+}
+
+.box{
+ background:rgba(255,255,255,0.95);
+ padding:40px;
+ border-radius:15px;
+ text-align:center;
+ width:450px;
+}
+
+button{
+ padding:10px 20px;
+ margin:10px;
+ border:none;
+ border-radius:6px;
+ background:#ff5e62;
+ color:white;
+ cursor:pointer;
+}
+
+.food{
+ background:white;
+ width:280px;
+ margin:15px;
+ padding:10px;
+ border-radius:10px;
+ display:inline-block;
+ box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.food img{
+ width:100%;
+ height:160px;
+ border-radius:10px;
+}
